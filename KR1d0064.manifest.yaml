@@ -1,0 +1,86 @@
+canonical_identifier: bkk:krp/KR1d0064/v1
+canonical_location: https://kanripo.org/bkk/KR1d0064/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 坊記集傳
+  date: '2015-08-24 22:10:35.326585'
+  source:
+    repository: kanripo
+    path: KR1d0064
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1d0064_000.yaml, hash: 'sha256:254424473f5982c6b80914c4efac658ea0e9b4148912cec76a4c5b8e53d04ea6'}
+  - {seq: 1, filename: KR1d0064_001.yaml, hash: 'sha256:0be2eb674232c0219a3b9e2d82209765dedcd567bfa6e8a7e7782d482f835dc4'}
+  - {seq: 2, filename: KR1d0064_002.yaml, hash: 'sha256:d9714755a0b63503c57f6f24a1e4a391532859acc43ef6e066d8ee09f2613476'}
+  - {seq: 3, filename: KR1d0064_003.yaml, hash: 'sha256:768485b15aa2603599e0d7f6b78ea1b497d9a7e124851de44c4cd8ac931e439f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1d0064_000.markers.yaml, hash: 'sha256:51e45db852fd075b014c27478fa4ef4209db3c1c78a1871f470ffcf41c593281'}
+  - {seq: 1, role: markers, filename: assets/KR1d0064_001.markers.yaml, hash: 'sha256:24867e9fe273421bb03afa12153bd9ee0ae598898d2f64b971eebfbb909139c1'}
+  - {seq: 2, role: markers, filename: assets/KR1d0064_002.markers.yaml, hash: 'sha256:a296db9d769d2d005e0037a6dffac2a8f7318b63415077e9f79721a44c5c8933'}
+  - {seq: 3, role: markers, filename: assets/KR1d0064_003.markers.yaml, hash: 'sha256:2abac2c245a76ea2fb7f2c4b4915f007b08fac6829d7a5338cb796979aa3c8df'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1d0064_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 539
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR1d0064_WYG_000-4a
+    span:
+    - body
+    - 539
+    - 1084
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1d0064_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 38255
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1d0064_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 31238
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR1d0064_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 8904
+  label: 附錄坊記春秋問業
+  type: section
+  level: 1
+hash: sha256:8ceae0ccba588b9dd7776cf9ee08e2c6b6a690a1dda3ebfe79526dbb023303b6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
